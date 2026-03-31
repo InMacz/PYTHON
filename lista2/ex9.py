@@ -1,3 +1,5 @@
 num1 = int(input("Digite o número 1: "))
 num2 = int(input("Digite o número 2: "))
 num3 = int(input("Digite o número 3: "))
+numeros = sorted([num1, num2, num3], reverse=True)
+print (numeros[0], numeros[1], numeros[2] )
