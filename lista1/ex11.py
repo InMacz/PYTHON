@@ -1,0 +1,6 @@
+num1 = int(input("Digite o número 1: "))
+num2 = int(input("Digite o número 2: "))
+num3 = float(input("Digite o número 3: "))
+print("O produto do dobro do primeiro com metade do segundo é: ", ((num1*2)*(num2/2)))
+print("A soma do triplo do primeiro com o terceiro é: ", (num1*3)+num3)
+print("O terceiro elevado ao cubo é: ", num3**3)
