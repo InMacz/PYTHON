@@ -3,11 +3,11 @@ salario = int(input("Digite seu salário atual: "))
 
 if salario <= 280:
     porcentagem = 20
-elif salario > 280 and salario < 700:
+elif salario  < 700:
     porcentagem = 15
-elif salario > 700 and salario < 1500:
+elif salario < 1500:
     porcentagem = 10
-elif salario >= 1500:
+else:
     porcentagem = 5
     
 
