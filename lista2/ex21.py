@@ -36,3 +36,4 @@ else:
         else: partes.append(f"{extenso[nota1]} notas de 1")
 frase = ", ".join(partes[:-1]) + " e " + partes[-1]
 print(f"Para sacar {saque} reais, o programa fornece {frase}.")
+
