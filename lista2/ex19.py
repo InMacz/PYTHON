@@ -22,4 +22,19 @@ if unidade != 1:
 else:
     msgUnidade = "unidade"
 
-print(f"{numero} = {centena} {msgCentena}, {dezena} {msgDezena} e {unidade} {msgUnidade}")
+partes = []
+if centena > 0:
+    partes.append(f"{centena} {msgCentena}")
+if dezena > 0:
+    partes.append(f"{dezena} {msgDezena}")
+if unidade > 0:
+    partes.append(f"{unidade} {msgUnidade}")
+
+if len(partes) == 1:
+    resultado = partes[0]
+elif len(partes) == 2:
+    resultado = partes[0] + " e " + partes[1]
+elif len(partes) == 3:
+    resultado = partes[0] + ", " + partes[1] + " e " + partes[2]
+
+print(f"{numero} = {resultado}")
